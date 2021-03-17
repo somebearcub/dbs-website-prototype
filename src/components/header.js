@@ -15,13 +15,13 @@ export default function Header({ children }) {
           {/* Navbar Items */}
           <ul class="text-black sm:self-center border-t sm:border-none">
             <li class="sm:inline-block p-8 hover:underline">
-              <Link to="/">Home</Link>
+              <Link to="/" activeClassName="active">Home</Link>
             </li>
             <li class="sm:inline-block p-8 hover:underline">
-              <Link to="/ourwork">Our Work</Link>
+              <Link to="/ourwork" activeClassName="active">Our Work</Link>
             </li>
             <li class="sm:inline-block p-8 hover:underline">
-                <Link to="/resources">Resources</Link>
+                <Link to="/resources" activeClassName="active">Resources</Link>
             </li>
           </ul>
         </div>

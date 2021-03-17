@@ -16,15 +16,15 @@ export default function Home() {
             class="flex self-stretch items-center pt-10 pb-10"
           />
         </div>
-        <div class="bg-red-500 px-20 py-10 w-full overflow-hidden sm:w-1/2 flex self-stretch items-center">
+        <div class="bg-red-500 px-20 py-20 w-full overflow-hidden sm:w-1/2 flex self-stretch items-center">
           <div>
-            <h1 class="text-white text-2xl text-5xl lg:text-6xl md:text-3xl">
+            <h1 class="text-white text-5xl 2xl:text-6xl xl:text-4xl lg:text-2xl md:text-xl">
               A story of <span class="text-black font-black">people</span>
             </h1>
-            <h1 class="text-white text-2xl text-5xl lg:text-6xl md:text-3xl">
+            <h1 class="text-white text-5xl 2xl:text-6xl xl:text-4xl lg:text-2xl md:text-xl">
               designing a <span class="text-black font-black">bank</span>.
             </h1>
-            <p class="font-thin text-white text-xs pt-1 lg:text-xl md:text-sm lg:py-6 md:py-2 sm:py-1">
+            <p class="font-thin text-white text-base 2xl:text-lg xl:text-base lg:text-sm md:text-xs lg:py-6 md:py-2 sm:py-1">
               Hi there. This is our story. It's a story about a group of
               designers working in a bank and doing our best to make money
               simple. <br />
@@ -33,7 +33,7 @@ export default function Home() {
               from the tiniest moment — paying your friend back for lunch — to
               the biggest, like applying for a mortgage. And that's why it's
               really important we design them well. <br />
-
+              <br />
               Keep scrolling to find out more about our team.
             </p>
           </div>
@@ -43,10 +43,10 @@ export default function Home() {
       <div class="flex flex-wrap items-center">
         <div class="bg-red-500 px-20 py-10 w-full overflow-hidden sm:w-1/2 flex self-stretch items-center">
           <div>
-            <h1 class="text-white text-2xl text-5xl lg:text-6xl md:text-3xl">
+            <h1 class="text-white text-5xl xl:text-6xl lg:text-5xl md:text-3xl">
               One Band,
             </h1>
-            <h1 class="text-white text-2xl text-5xl lg:text-6xl md:text-3xl">
+            <h1 class="text-white text-5xl xl:text-6xl lg:text-5xl md:text-3xl">
               One Sound,
             </h1>
             <p class="font-thin text-white text-xs pt-1 lg:text-xl md:text-sm lg:py-6 md:py-2 sm:py-1">
