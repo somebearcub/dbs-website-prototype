@@ -6,5 +6,13 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `DBS Prototype`,
+    description: `For the UX Engineer test.`,
+    author: `Cherilynn`,
+  },
+
+  plugins: [
+
+  ],
 }
