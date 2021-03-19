@@ -2,7 +2,152 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
-    text-decoration: underline;
-    color: #EF4444;
+/* Font */
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,700");
+
+h1 {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
+
+p {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.active {
+  text-decoration: underline;
+  color: #ef4444;
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card_main {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #272727;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  padding: 0.8rem 0 0 0.8rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+  transform: scale(1.2);
+}
+
+.card_content {
+  padding: 1rem;
+}
+
+.card_content:hover {
+  padding: 1rem;
+}
+
+.card_title {
+  color: #272727;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #272727;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+input {
+  width: 100%;
+  padding: 1rem;
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0 auto;
+}
+
+.card_tag {
+  background: #FFBE9D;
+  border-radius: 3px 0 0 3px;
+  color: black;
+  display: inline-block;
+  height: 26px;
+  padding: 0 20px 0 15px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.card_tag li {
+  float: left; 
+}
+
+.card_tag::after {
+  background: #fff;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #FFBE9D;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+

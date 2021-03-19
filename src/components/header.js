@@ -8,7 +8,7 @@ export default function Header({ children }) {
       <div class="container mx-auto">
         <div class="sm:flex justify-around">
           {/* Site Logo */}
-          <a href="#" class="max-w-xs sm: md:min-h-full p-8">
+          <a href="#" class="max-w-xs md:min-h-full p-8">
             <img src={logo} alt="Logo" />
           </a>
 
