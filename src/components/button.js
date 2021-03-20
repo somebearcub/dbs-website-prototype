@@ -1,9 +1,14 @@
 import React from "react"
+import { Link } from "gatsby"
 
-export default function Button({ children }) {
+export default function Button({ buttonText }) {
   return (
     <div>
-      <button class="bg-red-500 hover:bg-red-700 ...">Button</button>
+      <Link to="/">
+        <div class="buttonSecondary bounce">
+          <p>{buttonText}</p>
+        </div>
+      </Link>
     </div>
   )
 }

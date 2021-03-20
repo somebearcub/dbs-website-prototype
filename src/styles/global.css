@@ -19,12 +19,26 @@ p {
   font-size: 1.25rem;
 }
 
+q {
+  padding-top: 1.2rem;
+  color: #ef4444;
+  font-weight: 700;
+  font-family: "Poppins", serif;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
 .active {
   text-decoration: underline;
   color: #ef4444;
   font-weight: 700;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
+/* Custom Styling for Components */
 *,
 *::before,
 *::after {
@@ -122,7 +136,7 @@ input {
 }
 
 .card_tag {
-  background: #FFBE9D;
+  background: #ffbe9d;
   border-radius: 3px 0 0 3px;
   color: black;
   display: inline-block;
@@ -137,17 +151,104 @@ input {
 }
 
 .card_tag li {
-  float: left; 
+  float: left;
 }
 
 .card_tag::after {
   background: #fff;
   border-bottom: 13px solid transparent;
-  border-left: 10px solid #FFBE9D;
+  border-left: 10px solid #ffbe9d;
   border-top: 13px solid transparent;
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
 }
 
+.buttonSecondary {
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  transition: all 0.15s;
+}
+
+.buttonSecondary:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+  }
+
+/* Simple CSS Animations */
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slide-up ease 2s;
+}
+@keyframes slide-up {
+  from {
+    opacity: 0.25;
+    line-height: 400px;
+  }
+  to {
+    opacity: 1;
+    line-height: 25px;
+  }
+}

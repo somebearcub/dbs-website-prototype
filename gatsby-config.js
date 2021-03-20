@@ -6,13 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  siteMetadata: {
-    title: `DBS Prototype`,
-    description: `For the UX Engineer test.`,
-    author: `Cherilynn`,
-  },
-
   plugins: [
-
+    `gatsby-plugin-transition-link`
   ],
 }

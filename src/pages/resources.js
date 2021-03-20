@@ -1,13 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import Card from "../components/card"
-import { Link } from "gatsby"
 
 export default function Resources() {
   return (
     <div>
       <Layout>
-        <div class="card_main">
+        <div class="card_main fade-in">
           <form class="pb-2 px-4">
             <input
               type="text"

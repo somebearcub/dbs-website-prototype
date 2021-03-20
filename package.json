@@ -16,8 +16,10 @@
   "dependencies": {
     "fontsource-poppins": "^4.0.0",
     "gatsby": "^3.0.1",
+    "gatsby-plugin-transition-link": "^1.20.5",
     "gatsby-source-filesystem": "^3.1.0",
     "gatsby-transformer-json": "^3.1.0",
+    "gsap": "^3.6.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
